@@ -1,6 +1,6 @@
 # confi3
 These are the dotfiles that I personally use in my i3 + picom setup. It's very slightly modified from the default presets of these programs.
-![./assets/rice.png]
+![what you would expect from this](./assets/rice.png)
 
 ## Key bindings
 This is uses your keyboard's Win key as the `$mod` key. However, to change the wallpaper and colors, press `$mod+Shift+M` to change the wallpaper, and the color scheme additionally.
