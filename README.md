@@ -12,8 +12,10 @@ picom
 polybar
 xwallpaper (to use feh soon)
 zenity
-fonts-jetbrains-mono && JetBrainsMono NF (can be installed from [here](https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/10f552c8-e291-4516-9bb6-23bc6012d3ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250114T171414Z&X-Amz-Expires=300&X-Amz-Signature=686f2633f50f76634b7e7b04eae116e618bd7e7bd443890203d69ff2d2af22f4&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DJetBrainsMono.zip&response-content-type=application%2Foctet-stream))
+fonts-jetbrains-mono && JetBrainsMono NF*
 ```
+
+> JetBrainsMono NF can be installed from [here](https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/10f552c8-e291-4516-9bb6-23bc6012d3ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250114T171414Z&X-Amz-Expires=300&X-Amz-Signature=686f2633f50f76634b7e7b04eae116e618bd7e7bd443890203d69ff2d2af22f4&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DJetBrainsMono.zip&response-content-type=application%2Foctet-stream)
 
 ## Installation
 Clone the repo, and just run `make`. This will install to the current user only.
