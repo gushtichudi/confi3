@@ -27,13 +27,13 @@ This configuration is still in WIP and if you face any problems, but know how to
 ### Known bugs:
 - No wallpaper by default, user has to press key binding to set it.
 - Polybar looks broken upon first login.
-- `./wal.sh` cannot set the color scheme from `$mod+Shift+M` invokation. This likely has something to do with it having to invoke it through bash instead of the shebang. (idk)
+- ~`./wal.sh` cannot set the color scheme from `$mod+Shift+M` invokation. This likely has something to do with it having to invoke it through bash instead of the shebang. (idk)~ It can.
 
 ### TODO:
-- Make the configuration remember your wallpaper
-- Add a keybinding for screenshotting
-- Make Polybar look less bland
-- Use `feh` instead of `xwallpaper`
+[] Make the configuration remember your wallpaper
+[] Add a keybinding for screenshotting
+[x] Make Polybar look less bland
+[] Use `feh` instead of `xwallpaper`
 
 ## Licensing
 MIT License.
