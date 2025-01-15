@@ -8,6 +8,7 @@ font pango:JetBrains Mono 9
 for_window [class="^.*"] border pixel 0
 default_border pixel 0
 default_floating_border pixel 0
+# for_window [class=.\*] border pixel 1
 
 # padding
 gaps inner 5
@@ -19,7 +20,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # start polybar
 exec_always --no-startup-id ~/.local/scripts/poly.sh
- 
+
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -52,7 +53,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -191,5 +192,3 @@ bindsym $mod+r mode "resize"
 # bar {
 #         status_command i3status
 # }
-
-# this is the bar we like
