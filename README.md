@@ -1,9 +1,26 @@
 # confi3
 These are the dotfiles that I personally use in my i3 + picom setup. It's very slightly modified from the default presets of these programs.
+
 ![what you would expect from this](./assets/rice.png)
 
+## What does this incude and development
+These dotfiles are very simple and are just modifications from the sample configuration files provided by the programs used in this.
+
+And as for the "development" part, I cannot find the right word for this since managing dotfiles aren't really development but no one is going to see this either way.
+
+All commits will have these prefixes before the commit message. From the top and bottom represent the importance of these as shown:
+```
+    ^   (addition)
+    |   (cosmetic)
+    |   (readme)
+   !^   (chore)
+   --
+     `__ down
+```
+
 ## Key bindings
-This is uses your keyboard's Win key as the `$mod` key. However, to change the wallpaper and colors, press `$mod+Shift+M` to change the wallpaper, and the color scheme additionally.
+This uses your keyboard's Win key as the `$mod` key. Most of the original key bindings from i3 are left unchanged. 
+However, to change the wallpaper and colors, press `$mod+Shift+M` to change the wallpaper, and the color scheme additionally.
 
 ## Prerequisites
 ```
@@ -37,5 +54,5 @@ This configuration is still in WIP and if you face any problems, but know how to
 - [x] Make Polybar look less bland
 - Use `feh` instead of `xwallpaper`
 
-## Licensing
+## License
 MIT License.
