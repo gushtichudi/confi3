@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "==================== WHY AM I SEEING THIS WINDOW ===================="
+echo "This provides better insight on what's really going on and fix any errors if encountered."
+
 walset() {
 	zenity --info --text "you will now be prompted to set a wallpaper."
 
