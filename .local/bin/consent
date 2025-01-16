@@ -8,6 +8,5 @@ def b(c):
     e = [d for d in c]
     return ' '.join(e[2:])
 
-
 os.system(f"{sys.argv[1]} {b(a)}")
-input("press enter to exit") 
+input("\nDONE! Press Enter to exit.") 
