@@ -8,11 +8,13 @@ This is uses your keyboard's Win key as the `$mod` key. However, to change the w
 ## Prerequisites
 ```
 kitty
+mate-terminal
 picom
 polybar
 rofi
 xwallpaper (to use feh soon)
 zenity
+
 fonts-jetbrains-mono && JetBrainsMono NF*
 ```
 
