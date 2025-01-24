@@ -1,7 +1,21 @@
-# confi3
+<h1 style="font-size: 15px; text-align: center">
+<pre>
+                  __ _ _____ 
+  ___ ___  _ __  / _(_)___ / 
+ / __/ _ \| '_ \| |_| | |_ \ 
+| (_| (_) | | | |  _| |___) |
+ \___\___/|_| |_|_| |_|____/ 
+<br>
+Okay looking dotfiles for i3
+</pre>
+</h1>
 These are the dotfiles that I personally use in my i3 + picom setup. It's very slightly modified from the default presets of these programs.
 
-![what you would expect from this](./assets/rice.png)
+<br>
+
+<div style="display: flex; justify-content: center;">
+<img src="./assets/rice.png" style="max-width: 450px; border-radius: 10px;">
+</div>
 
 ## What does this incude and development
 These dotfiles are very simple and are just modifications from the sample configuration files provided by the programs used in this.
