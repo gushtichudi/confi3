@@ -1,13 +1,15 @@
 <h1 style="font-size: 15px; text-align: center" align="center">
+<samp>
 <pre>
                   __ _ _____ 
   ___ ___  _ __  / _(_)___ / 
  / __/ _ \| '_ \| |_| | |_ \ 
 | (_| (_) | | | |  _| |___) |
  \___\___/|_| |_|_| |_|____/ 
-<br>
+<span></span>
 Okay looking dotfiles for i3
 </pre>
+</samp>
 </h1>
 These are the dotfiles that I personally use in my i3 + picom setup. It's very slightly modified from the default presets of these programs.
 
