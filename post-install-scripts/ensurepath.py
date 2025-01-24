@@ -10,7 +10,10 @@ for c in a.split(":"):
     if f"/home/{b}/.local/bin" not in c:
         print("ensuring path in bash_profile")
         with open(f"/home/{b}/.profile", 'a') as d:
-            d.write("\n# written by confi3")
-            d.write("export $PATH=$PATH:$HOME/.local/bin")
+            d.write("\n# written by confi3\n")
+            d.write("export $PATH=$PATH:$HOME/.local/bin\n")
+            break
     else:
         exit(0)
+
+os.system("source ~/.profile")
