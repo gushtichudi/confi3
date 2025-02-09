@@ -49,13 +49,16 @@ rofi
 xwallpaper (to use feh soon)
 zenity
 
-fonts-jetbrains-mono && JetBrainsMono NF*
+fonts-cascadia-code && CaskaydiaMono NF*
 ```
-
-> JetBrainsMono NF can be installed from [here](https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/10f552c8-e291-4516-9bb6-23bc6012d3ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250114T171414Z&X-Amz-Expires=300&X-Amz-Signature=686f2633f50f76634b7e7b04eae116e618bd7e7bd443890203d69ff2d2af22f4&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DJetBrainsMono.zip&response-content-type=application%2Foctet-stream)
+> CaskaydiaMono NF can be installed from the Nerd Fonts website.
 
 ## Installation
-Clone the repo, and just run `make`. This will install to the current user only.
+Clone this repository, and run `make`.
+
+The `make`file provides two post-install targets that you can run.
+- `disable-blur` disables blur of all translucent elements.
+- `disable-kitty-opacity` disables opacity from `kitty`.
 
 ## Bugs, TODOs and Contributing
 This configuration is still in WIP and if you face any problems, but know how to fix it, you should make an issue or a PR with your fix.

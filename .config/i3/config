@@ -2,7 +2,7 @@ include $HOME/.config/i3/color.conf
 
 set $mod Mod4
 
-font pango:JetBrains Mono 9
+font pango:CaskaydiaMono NF 9
 
 # remove titlebar & set border to 0
 for_window [class="^.*"] border pixel 0
