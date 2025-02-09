@@ -14,9 +14,10 @@ Okay looking dotfiles for i3
 These are the dotfiles that I personally use in my i3 + picom setup. It's very slightly modified from the default presets of these programs.
 
 <br>
+<br>
 
 <div style="display: flex; justify-content: center;">
-<img src="./assets/rice.png" style="max-width: 450px; border-radius: 10px;">
+<img src="./assets/lol.png" style="max-width: 450px; border-radius: 10px;">
 </div>
 
 ## What does this incude and development
@@ -29,7 +30,7 @@ All commits will have these prefixes before the commit message. From the top and
     ^   (addition)
     |   (cosmetic)
     |   (readme)
-   !^   (chore)
+    v   (chore)
    --
      `__ down
 ```
