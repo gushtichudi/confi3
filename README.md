@@ -70,6 +70,7 @@ This configuration is still in WIP and if you face any problems, but know how to
 
 ### TODO:
 - Make the configuration remember your wallpaper
+    - Note: The logic behind this was implemented but doesn't work, yet.
 - Add a keybinding for screenshotting
 - [x] Make Polybar look less bland
 - Use `feh` instead of `xwallpaper`

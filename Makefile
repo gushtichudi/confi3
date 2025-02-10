@@ -11,3 +11,7 @@ disable_blur:
 
 disable_kitty_opacity:
 	cp .config/kitty/kittyNoTrans.conf ~/.config/kitty/kitty.conf
+
+retain_wallpaper:
+	@echo "Warning: PLEASE run make install after you've done this.\n"
+	echo "exec --no-startup-id mate-terminal -c ./post-install-scripts/retainWallpaper.sh" >> .config/i3/config

@@ -9,6 +9,8 @@ walset() {
 	WALL=$(zenity --file-selection)
 	[ $? == 0 ] && zenity --warning --text "WIP: Set wallpaper mode" || zenity --error --text "error occured. try running again using $(pwd)/wal.sh"
 
+  echo $WALL > ~/.wallpath.ci3
+
 	xwallpaper --zoom $WALL
 	[ $? == 0 ] && export j=$WALL || zenity --error --text "error at setting wp: try running again using $(pwd)/wal.sh"
 
