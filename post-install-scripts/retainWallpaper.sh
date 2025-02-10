@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# i wish this worked.
+
 error() {
   zenity --error --text "$1"
   exit 1

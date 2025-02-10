@@ -1,6 +1,8 @@
 # This script will ensure that ~/.local/bin is in your $PATH
 # Very simple script nothing to worry about
 
+# Doesn't work either too lol
+
 import os
 
 a = os.popen("echo $PATH").read()
