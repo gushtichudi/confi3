@@ -31,8 +31,6 @@ All commits will have these prefixes before the commit message. From the top and
     |   (cosmetic)
     |   (readme)
     v   (chore)
-   --
-     `__ down
 ```
 
 ## Key bindings
