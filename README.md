@@ -20,10 +20,8 @@ These are the dotfiles that I personally use in my i3 + picom setup. It's very s
 <img src="./assets/lol.png" style="max-width: 450px; border-radius: 10px;">
 </div>
 
-## What does this incude and development
+## About
 These dotfiles are very simple and are just modifications from the sample configuration files provided by the programs used in this.
-
-And as for the "development" part, I cannot find the right word for this since managing dotfiles aren't really development but no one is going to see this either way.
 
 All commits will have these prefixes before the commit message. From the top and bottom represent the importance of these as shown:
 ```
