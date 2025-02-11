@@ -1,6 +1,6 @@
 #!/bin/bash
 
-figlet "confi3"
+figlet "myconf"
 
 check() {
 	printf "checking if system has $1... "

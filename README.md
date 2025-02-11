@@ -1,20 +1,6 @@
-<h1 style="font-size: 15px; text-align: center" align="center">
-<samp>
-<pre>
-                  __ _ _____ 
-  ___ ___  _ __  / _(_)___ / 
- / __/ _ \| '_ \| |_| | |_ \ 
-| (_| (_) | | | |  _| |___) |
- \___\___/|_| |_|_| |_|____/ 
-<span></span>
-Okay looking dotfiles for i3
-</pre>
-</samp>
-</h1>
-These are the dotfiles that I personally use in my i3 + picom setup. It's very slightly modified from the default presets of these programs.
+<h1 class="text-align: center">myconf</h1>
 
-<br>
-<br>
+### These are the dotfiles that I personally use in my i3 + picom setup. It's very slightly modified from the default presets of these programs.
 
 <div style="display: flex; justify-content: center;">
 <img src="./assets/lol.png" style="max-width: 450px; border-radius: 10px;">
