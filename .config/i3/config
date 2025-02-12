@@ -4,6 +4,12 @@ set $mod Mod4
 
 font pango:CaskaydiaMono NF 9
 
+#interactive screenshot by pressing printscreen
+bindsym Print exec xfce4-screenshooter
+
+# bind XF86Search to rofi
+bindsym XF86Search exec --no-startup-id rofi -show run
+
 # remove titlebar & set border to n
 for_window [class="^.*"] border pixel 3
 default_border pixel 3
