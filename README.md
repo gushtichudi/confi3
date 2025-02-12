@@ -2,10 +2,6 @@
 
 ### These are the dotfiles that I personally use in my i3 + picom setup. It's very slightly modified from the default presets of these programs.
 
-<div style="display: flex; justify-content: center;">
-<img src="./assets/lol.png" style="max-width: 450px; border-radius: 10px;">
-</div>
-
 ## About
 These dotfiles are very simple and are just modifications from the sample configuration files provided by the programs used in this.
 
