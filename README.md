@@ -1,4 +1,4 @@
-<h1 class="text-align: center">myconf</h1>
+<h1 align="center">myconf</h1>
 
 ### These are the dotfiles that I personally use in my i3 + picom setup. It's very slightly modified from the default presets of these programs.
 
@@ -27,6 +27,7 @@ kitty
 mate-terminal
 picom
 polybar
+pywal
 rofi
 xwallpaper (to use feh soon)
 zenity
@@ -35,12 +36,15 @@ fonts-cascadia-code && CaskaydiaMono NF*
 ```
 > CaskaydiaMono NF can be installed from the Nerd Fonts website.
 
+My dotfiles heavily rely on `pywal` for the colors. The dotfiles wouldn't even work properly without it. So, always be 100% sure to have pywal installed if not anything else.
+
 ## Installation
 Clone this repository, and run `make`.
 
 The `make`file provides two post-install targets that you can run.
 - `disable-blur` disables blur of all translucent elements.
 - `disable-kitty-opacity` disables opacity from `kitty`.
+- `retain-wallpaper` doesn't work (yet) and I am on the works to fix it with all my due abilities.
 
 ## Bugs, TODOs and Contributing
 This configuration is still in WIP and if you face any problems, but know how to fix it, you should make an issue or a PR with your fix.
@@ -48,7 +52,6 @@ This configuration is still in WIP and if you face any problems, but know how to
 ### Known bugs:
 - No wallpaper by default, user has to press key binding to set it.
 - Polybar looks broken upon first login.
-- ~`./wal.sh` cannot set the color scheme from `$mod+Shift+M` invokation. This likely has something to do with it having to invoke it through bash instead of the shebang. (idk)~ It can.
 
 ### TODO:
 - Make the configuration remember your wallpaper
