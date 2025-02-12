@@ -62,4 +62,5 @@ This configuration is still in WIP and if you face any problems, but know how to
 
 ## License
 MIT License - Rest of the repository
+
 GPLv2 - Zorin Grey theme.
