@@ -2,7 +2,7 @@ include $HOME/.config/i3/color.conf
 
 set $mod Mod4
 
-font pango:CaskaydiaMono NF 9
+font pango:IosevkaTerm NF 9
 
 #interactive screenshot by pressing printscreen
 bindsym Print exec xfce4-screenshooter
