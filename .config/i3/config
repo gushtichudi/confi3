@@ -4,10 +4,10 @@ set $mod Mod4
 
 font pango:CaskaydiaMono NF 9
 
-# remove titlebar & set border to 0
-for_window [class="^.*"] border pixel 4
-default_border pixel 4
-default_floating_border pixel 4
+# remove titlebar & set border to n
+for_window [class="^.*"] border pixel 3
+default_border pixel 3
+default_floating_border pixel 3
 # for_window [class=.\*] border pixel 1
 
 # make mate-terminal (one that shows debug messages during invokation of `$mod+Shift+M`) float
