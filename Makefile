@@ -12,10 +12,11 @@ all:
 install:
 	cp -r .config/* ~/.config/
 	cp -r .local/* ~/.local/
+	cp -r .themes/* ~/.themes/
 	@echo "Running post-installation script. This will check if you have all the needed"
 	@./post-install-scripts/checkDependencies.sh
 	@echo "Ensuring path"
-	@echo "Attention: path ensurement script is experimental, on ~/.bashrc write \`export \$PATH=\$PATH:\$HOME/.local/bin\`"
+	@echo "Attention: path ensurement script is experimental."
 
 disable_blur:
 	cp .config/picom/picomNoBlur.conf ~/.config/picom/picom.conf
