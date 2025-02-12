@@ -9,6 +9,10 @@
 ## About
 These dotfiles are very simple and are just modifications from the sample configuration files provided by the programs used in this.
 
+To my choice, for GTK programs, ZorinOS's Grey theme is optionally provided for use. This is licensed under GPLv2.
+
+A good program I recommend you to change your themes with is [ThemeChanger](https://github.com/ALEX11BR/ThemeChanger) - available in the AUR.
+
 All commits will have these prefixes before the commit message. From the top and bottom represent the importance of these as shown:
 ```
     ^   (addition)
@@ -61,4 +65,5 @@ This configuration is still in WIP and if you face any problems, but know how to
 - Use `feh` instead of `xwallpaper`
 
 ## License
-MIT License.
+MIT License - Rest of the repository
+GPLv2 - Zorin Grey theme.
