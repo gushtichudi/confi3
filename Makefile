@@ -1,3 +1,14 @@
+all:
+	@echo "Please run either of these targets to get what you desire."
+	@echo "	- install:	REQUIRED FOR REST OF THE TARGETS."
+	@echo "		   	* installs the main configuration."
+	@echo
+	@echo "	- disable_blur:	* disables compositor blur"
+	@echo
+	@echo "	- disable_kitty-opacity:"
+	@echo "			* companion target of disable_blur"
+	@echo "			* removes transparency from kitty terminal"
+
 install:
 	cp -r .config/* ~/.config/
 	cp -r .local/* ~/.local/
